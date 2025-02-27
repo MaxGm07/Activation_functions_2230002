@@ -1,1 +1,5 @@
-venv/
+*
+!main.py
+!README.md
+!src/
+!requirements.txt
