@@ -3,3 +3,6 @@
 !README.md
 !src/
 !requirements.txt
+!gaussian_function.py
+!sinusoidal_function.py
+!tanh_function.py
