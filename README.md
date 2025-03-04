@@ -67,12 +67,12 @@ Se recomienda tener el entorno virtual generado en la carpeta principal para un 
 
 **En Unix:**
     ```
-    source nombre_del_entorno/bin/activate
-    ```
     
     ```
+
+    source nombre_del_entorno/bin/activate
     deactivate
-    ```
+    
 
 ## Uso
 Finalmente, para emplear este repositorio, con sus respectivos requerimientos y entorno virtual cumplidos, se puede proceder a usar el código *main.py* mediante python main.py en PowerShell y python3 main.py en Linux, mediante la ejecución del código principal, se manda a llamar cada uno de los códigos requeridos para la graficación de las 8 funciones de activación mostrando de igual forma sus respectivas derivadas.
