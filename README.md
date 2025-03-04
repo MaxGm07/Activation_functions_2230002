@@ -14,7 +14,6 @@ Este repositorio contiene la **Tarea 1** del curso de **Visión artificial**. El
 3. [Instalación](#instalación)
 4. [Nota para el entorno virtual](#nota-para-el-entorno-virtual)
 5. [Uso](#uso)
-6. [Contacto](#contacto)
 
 ---
 
@@ -73,6 +72,3 @@ Se recomienda tener el entorno virtual generado en la carpeta principal para un 
 ## Uso
 Finalmente, para emplear este repositorio, con sus respectivos requerimientos y entorno virtual cumplidos, se puede proceder a usar el código *main.py* mediante python main.py en PowerShell y python3 main.py en Linux, mediante la ejecución del código principal, se manda a llamar cada uno de los códigos requeridos para la graficación de las 8 funciones de activación mostrando de igual forma sus respectivas derivadas.
 
-## Contacto
-Si se tienen dudas sobre algún punto a seguir al igual que opiniones sobre el repositorio:
-Email: cgarciam0701@gmail.com
