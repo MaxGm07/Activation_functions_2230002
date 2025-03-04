@@ -57,14 +57,14 @@ Sigue estos pasos para clonar y configurar el proyecto en tu máquina local:
 Se recomienda tener el entorno virtual generado en la carpeta principal para un fácil acceso, su activación y desactivación se realiza de la siguiente forma: 
 
 **En PowerShell:**
-    ```
+    
     
     .\nombre_del_entorno\Scripts\Activate
     deactivate
     
 
 **En Unix:**
-    ```
+    
 
     source nombre_del_entorno/bin/activate
     deactivate
