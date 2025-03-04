@@ -5,7 +5,7 @@
 :octocat:
 
 Este repositorio contiene la **Tarea 1** del curso de **Visión artificial**. El proyecto está diseñado para graficar las funciones de activación más empleadas dentro del tema de redes neuronales, permitiendo comprender y visualizar en este repositorio las gráficas de dichas funciones con su respectiva derivada.
----
+
 
 ## Tabla de Contenidos
 
@@ -54,7 +54,8 @@ Sigue estos pasos para clonar y configurar el proyecto en tu máquina local:
 
 
 ## Nota para el entorno virtual
-Se recomienda tener el entorno virtual generado en la carpeta principal para un fácil acceso, se requiere el acceso mediante el comando "cd nombre_del_entorno", posteriormente su activación y desactivación se realiza de la siguiente manera: 
+Se recomienda tener el entorno virtual generado en la carpeta principal para un fácil acceso, su activación y desactivación se realiza de la siguiente forma: 
+
 **En PowerShell:**
 *.\nombre_del_entorno\Scripts\Activate*
 *deactivate*
