@@ -58,16 +58,12 @@ Se recomienda tener el entorno virtual generado en la carpeta principal para un 
 
 **En PowerShell:**
     ```
+    
     .\nombre_del_entorno\Scripts\Activate
-    ```
-
-    ```
     deactivate
-    ```
+    
 
 **En Unix:**
-    ```
-    
     ```
 
     source nombre_del_entorno/bin/activate
