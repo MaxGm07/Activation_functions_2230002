@@ -29,12 +29,18 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente en tu sistema:
 
 - [Python 3.8 o superior](https://www.python.org/downloads/) 
 
-Un punto opcional es la creación de un entorno virtual para probar el código principal mediante el comando
-**python -m venv nombre_del_entorno** en powershell
-**python3 -m venv nombre_del_entorno** en Unix usualmente
+Un punto importante es la creación de un entorno virtual para probar el código principal mediante el comando
+
+**en powershell**
+    
+    python -m venv nombre_del_entorno 
+
+**en Unix**
+
+    python3 -m venv nombre_del_entorno  
 
 además de contar con las librerías requeridas listadas en el archivo requirements.txt
-su instalación se facilita mediante el siguiente comando, para Windows (Powershell) y Linux
+su instalación se facilita mediante el comando mostrado en el apartado de instalación, para Windows (Powershell) y Linux
 
 
 ---
@@ -48,7 +54,7 @@ Sigue estos pasos para clonar y configurar el proyecto en tu máquina local:
 2. Navegue mediante el comando cd hasta la carpeta donde clonó el repositorio
 3. Cree un nuevo entorno virtual (se describe mejor el procedimiento en el apartado de Nota)
 4. Instale la lista de requirements (recomendado: dentro del entorno virtual):
-    pip install -r requirements.txt (en unix silo cambia el pip con pip3)
+    pip install -r requirements.txt (en unix solo cambia el pip con pip3)
 
 
 
