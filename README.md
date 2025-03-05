@@ -31,7 +31,7 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente en tu sistema:
 
 Un punto importante es la creación de un entorno virtual para probar el código principal mediante el comando
 
-**en powershell**
+**en PowerShell**
     
     python -m venv nombre_del_entorno 
 
