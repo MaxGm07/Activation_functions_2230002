@@ -15,11 +15,11 @@ x = np.linspace(-10, 10, 1000)
 y = step(x)
 y_derivative = step_derivative(x)
 
-# Graficar
+# Se grafica la función Step (Escalón) y su derivada
 def step_plot(ax):
     ax.plot(x, y, label="Escalón", color="purple")
     ax.plot(x, y_derivative, label="Derivada de Escalón", color="orange", linestyle="--")
-    ax.set_title("Función de Activación Escalón y su Derivada")
+    ax.set_title("Función de Activación Escalón")
     ax.set_xlabel("x")
     ax.set_ylabel("Escalón(x)")
     ax.grid(True)

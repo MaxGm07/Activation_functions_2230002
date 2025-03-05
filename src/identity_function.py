@@ -15,11 +15,11 @@ x = np.linspace(-10, 10, 1000)
 y = identity(x)
 y_derivative = identity_derivative(x)
 
-# Graficar
+# Se grafica la función Identidad y su derivada
 def identity_plot(ax):
     ax.plot(x, y, label="Identidad", color="green")
     ax.plot(x, y_derivative, label="Derivada de Identidad", color="orange", linestyle="--")
-    ax.set_title("Función de Activación Identidad y su Derivada")
+    ax.set_title("Función de Activación Identidad")
     ax.set_xlabel("x")
     ax.set_ylabel("Identidad(x)")
     ax.grid(True)

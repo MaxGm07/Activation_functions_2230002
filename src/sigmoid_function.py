@@ -15,11 +15,11 @@ x = np.linspace(-10, 10, 1000)
 y = sigmoid(x)
 y_derivative = sigmoid_derivative(x)
 
-# Graficar
+# Graficar la función sigmoide
 def sigmoid_plot(ax):
     ax.plot(x, y, label="Sigmoid", color="red")
     ax.plot(x, y_derivative, label="Derivada de Sigmoid", color="orange", linestyle="--")
-    ax.set_title("Función de Activación Sigmoid y su Derivada")
+    ax.set_title("Función de Activación Sigmoid")
     ax.set_xlabel("x")
     ax.set_ylabel("Sigmoid(x)")
     ax.grid(True)

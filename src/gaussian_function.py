@@ -15,11 +15,11 @@ x = np.linspace(-5, 5, 1000)
 y = gaussian(x)
 y_derivative = gaussian_derivative(x)
 
-# Graficar
+# Se grafica la función Gaussiana y su derivada
 def gaussian_plot(ax):
     ax.plot(x, y, label="Gaussiana", color="blue")
     ax.plot(x, y_derivative, label="Derivada de Gaussiana", color="orange", linestyle="--")
-    ax.set_title("Función Gaussiana y su Derivada")
+    ax.set_title("Función Gaussiana")
     ax.set_xlabel("x")
     ax.set_ylabel("f(x)")
     ax.grid(True)

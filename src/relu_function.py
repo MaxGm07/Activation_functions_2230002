@@ -15,11 +15,11 @@ x = np.linspace(-10, 10, 1000)
 y = relu(x)
 y_derivative = relu_derivative(x)
 
-# Graficar
+# Se grafica la función ReLU y su derivada
 def relu_plot(ax):
     ax.plot(x, y, label="ReLU", color="blue")
     ax.plot(x, y_derivative, label="Derivada de ReLU", color="orange", linestyle="--")
-    ax.set_title("Función de Activación ReLU y su Derivada")
+    ax.set_title("Función de Activación ReLU")
     ax.set_xlabel("x")
     ax.set_ylabel("ReLU(x)")
     ax.grid(True)
