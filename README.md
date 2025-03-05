@@ -1,4 +1,4 @@
-# Tarea_1_2230002
+# Activation_functions_2230002
 
 ![Badge](https://img.shields.io/badge/Estado-Completado-brightgreen)
 
