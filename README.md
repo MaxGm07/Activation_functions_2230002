@@ -10,16 +10,7 @@
 
 Este repositorio contiene la **Tarea 1** del curso de **Visión Artificial**. Su propósito es graficar las funciones de activación más utilizadas en redes neuronales, junto con sus respectivas derivadas, para facilitar su comprensión y análisis.
 
----
-## 📖 Tabla de Contenidos
-1. [Descripción](#descripción)
-2. [¿Qué son las funciones de activación?](#qué-son-las-funciones-de-activación)
-3. [Requisitos](#requisitos)
-4. [Estructura del Proyecto](#estructura-del-proyecto)
-5. [Funciones](#funciones)
-6. [Instalación](#instalación)
-7. [Uso](#uso)
-8. [Entorno Virtual](#entorno-virtual)
+
 
 ---
 ## 📌 Descripción
@@ -101,7 +92,7 @@ Para clonar y configurar el proyecto en tu máquina local, sigue estos pasos:
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/MaxGm07/Tarea_1_2230002.git
+   git clone https://github.com/MaxGm07/Activation_functions_2230002
    ```
 2. Navega hasta la carpeta del repositorio:
    ```bash
