@@ -1,77 +1,53 @@
-# Activation_functions_2230002
+# Activation Functions 2230002
 
-![Badge](https://img.shields.io/badge/Estado-Completado-brightgreen)
+![Estado](https://img.shields.io/badge/Estado-Completado-brightgreen)
 
 :octocat:
 
-**Alumno:** Carlos Maximiliano García Medina
+**Alumno:** Carlos Maximiliano García Medina  
+**Matrícula:** 2230002  
+**Asignatura:** Visión Artificial  
 
-**Matrícula:** 2230002
+Este repositorio contiene la **Tarea 1** del curso de **Visión Artificial**. Su propósito es graficar las funciones de activación más utilizadas en redes neuronales, junto con sus respectivas derivadas, para facilitar su comprensión y análisis.
 
-**Asignatura:** Visión artificial
-
-Este repositorio contiene la **Tarea 1** del curso de **Visión artificial**. El proyecto está diseñado para graficar las funciones de activación más empleadas dentro del tema de redes neuronales, permitiendo comprender y visualizar en este repositorio las gráficas de dichas funciones con su respectiva derivada.
-
-
-## Tabla de Contenidos
-
+---
+## 📖 Tabla de Contenidos
 1. [Descripción](#descripción)
-2. [¿Qué son las funcones de activacion?](#qué-son-las-funciones-de-activación)
+2. [¿Qué son las funciones de activación?](#qué-son-las-funciones-de-activación)
 3. [Requisitos](#requisitos)
-5. [Nota para el entorno virtual](#nota-para-el-entorno-virtual)
-
-6. [Uso](#uso)
-7. [Funciones](#funciones)
-8. [Instalación](#instalación)
----
-
-## Descripción
-
-Este proyecto es parte de la **Tarea 1** del curso de **Visión artificial**. Su objetivo principal es graficar ocho funciones de activacion, siendo la función gaussiana, identidad, reLU, sigmoide, signum, softmax, step (o escalón) y tangente hiperbólica. Aquí se incluyen los archivos de código fuente, documentación y pruebas necesarias para cumplir con los requisitos de la tarea.
+4. [Estructura del Proyecto](#estructura-del-proyecto)
+5. [Funciones](#funciones)
+6. [Instalación](#instalación)
+7. [Uso](#uso)
+8. [Entorno Virtual](#entorno-virtual)
 
 ---
-## ¿Qué son las funciones de activación?
-Las funciones de activación, en redes neuronales son funciones matemáticas que se aplican a la salida de cada neurona para determinar si debe activarse (enviar información a la siguiente capa) o no. Estas funciones introducen no linealidades en el modelo, lo que permite que la red aprenda y represente relaciones complejas en los datos.
+## 📌 Descripción
+Este proyecto es parte de la **Tarea 1** del curso de **Visión Artificial**. Su objetivo principal es graficar ocho funciones de activación ampliamente utilizadas en redes neuronales:
+
+- Gaussiana
+- Identidad
+- ReLU
+- Sigmoide
+- Signum
+- Softplus
+- Escalón (Step)
+- Tangente Hiperbólica
+
+El repositorio incluye los archivos de código fuente, documentación y pruebas necesarias para cumplir con los requisitos de la tarea.
 
 ---
-## Requisitos
+## 🤖 ¿Qué son las funciones de activación?
+Las funciones de activación en redes neuronales son funciones matemáticas que determinan si una neurona debe activarse o no. Introducen no linealidad en el modelo, permitiendo que la red aprenda y represente relaciones complejas en los datos.
 
+---
+## 🔧 Requisitos
 Antes de comenzar, asegúrate de tener instalado lo siguiente en tu sistema:
 
-- [Python 3.8 o superior](https://www.python.org/downloads/) 
-
-Un punto importante es la creación de un entorno virtual para probar el código principal mediante el comando:
-
-**en PowerShell**
-    
-    python -m venv nombre_del_entorno 
-
-**en Unix**
-
-    python3 -m venv nombre_del_entorno  
-
-además de contar con las librerías requeridas listadas en el archivo requirements.txt
-su instalación se facilita mediante el comando mostrado en el apartado de instalación, para Windows (Powershell) y Linux
-
+- [Python 3.8 o superior](https://www.python.org/downloads/)
 
 ---
-
-
-## Nota para el entorno virtual
-Se recomienda tener el entorno virtual generado en la carpeta principal para un fácil acceso, su activación y desactivación se realiza de la siguiente forma: 
-
-**En PowerShell:**
-    
-    .\nombre_del_entorno\Scripts\Activate
-    deactivate
-    
-
-**En Unix:**
-
-    source nombre_del_entorno/bin/activate
-    deactivate
----   
-## Estructura del proyecto
+## 📂 Estructura del Proyecto
 ```
 Activation_functions_2230002/
 ├── src/
@@ -89,54 +65,115 @@ Activation_functions_2230002/
 └── requirements.txt
 ```
 
-## Uso
-Finalmente, para emplear este repositorio, con sus respectivos requerimientos y entorno virtual cumplidos, se puede proceder a usar el código *main.py* mediante python main.py en PowerShell y python3 main.py en Linux, mediante la ejecución del código principal, se manda a llamar cada uno de los códigos requeridos para la graficación de las 8 funciones de activación mostrando de igual forma sus respectivas derivadas.
+---
+## 📊 Funciones
+El proyecto grafica las siguientes funciones de activación junto con sus derivadas:
 
-## Funciones
+1. **Gaussiana**: exp(-x²)  
+   - Derivada: -2x * exp(-x²)
 
-En el presente proyecto se grafican las siguientes funciones de activacion:
+2. **Identidad**: f(x) = x  
+   - Derivada: 1
 
-1. Función Gaussiana (Gaussian Function):
-   - Función: exp(-x^2)
-   - Derivada: -2 * x * exp(-x^2)
+3. **ReLU (Rectified Linear Unit)**: f(x) = max(0, x)  
+   - Derivada: 0 si x < 0; 1 si x >= 0
 
-2. Función Identidad (Identity Function):
-   - Función: Devuelve el mismo valor de entrada.
-   - Derivada: 1 para todos los valores de x.
+4. **Sigmoide**: 1 / (1 + exp(-x))  
+   - Derivada: sigmoide(x) * (1 - sigmoide(x))
 
-3. Función ReLU (Rectified Linear Unit):
-   - Función: Devuelve 0 si x < 0; de lo contrario, devuelve x.
-   - Derivada: 0 si x < 0; 1 si x >= 0.
+5. **Signum**:
+   - f(x) = -1 si x < 0, 0 si x = 0, 1 si x > 0
+   - Derivada: No definida en x = 0; en otros puntos es 0
 
-4. Función Sigmoide (Sigmoid Function):
-   - Función: Mapea cualquier valor a un rango entre 0 y 1.
-   - Derivada: sigmoide(x) * (1 - sigmoide(x)).
+6. **Softplus**: log(1 + exp(x))  
+   - Derivada: 1 / (1 + exp(-x))
 
-5. Función Signo (Signum Function):
-   - Función: Devuelve -1 si x < 0, 0 si x = 0, y 1 si x > 0.
-   - Derivada: No está definida en x = 0; en otros puntos, es 0.
+7. **Escalón (Step)**:
+   - f(x) = 1 si x >= 0; de lo contrario, 0
+   - Derivada: No definida en x = 0; en otros puntos es 0
 
-6. Función Softplus (Softplus Function):
-   - Función: log(1 + exp(x)).
-   - Derivada: 1 / (1 + exp(-x)).
+8. **Tangente Hiperbólica (TanH)**: tanh(x)  
+   - Derivada: 1 - tanh²(x)
 
-7. Función Escalón (Step Function):
-   - Función: Devuelve 1 si x >= 0; de lo contrario, devuelve 0.
-   - Derivada: No está definida en x = 0; en otros puntos, es 0.
-
-8. Función Tangente Hiperbólica (TanH):
-   - Función: Mapea cualquier valor a un rango entre -1 y 1.
-   - Derivada: 1 - tanh(x)^2.
-
-
-## Instalación
-
-Sigue estos pasos para clonar y configurar el proyecto en tu máquina local:
+---
+## ⚙️ Instalación
+Para clonar y configurar el proyecto en tu máquina local, sigue estos pasos:
 
 1. Clona este repositorio:
    ```bash
    git clone https://github.com/MaxGm07/Tarea_1_2230002.git
-2. Navegue mediante el comando cd hasta la carpeta donde clonó el repositorio
-3. Cree un nuevo entorno virtual (se describe mejor el procedimiento en el apartado de Nota)
-4. Instale la lista de requirements (recomendado: dentro del entorno virtual):
-    pip install -r requirements.txt (en unix solo cambia el pip con pip3)
+   ```
+2. Navega hasta la carpeta del repositorio:
+   ```bash
+   cd Tarea_1_2230002
+   ```
+3. Crea un entorno virtual (ver sección [Entorno Virtual](#entorno-virtual))
+4. Instala las dependencias del proyecto:
+   ```bash
+   pip install -r requirements.txt
+   ```
+   *(En Unix, usa `pip3` en lugar de `pip` si es necesario.)*
+
+---
+## 🚀 Uso
+Una vez que el entorno virtual y los requisitos estén configurados, puedes ejecutar el código principal con:
+
+```bash
+python main.py  # En Windows
+python3 main.py # En Linux/macOS
+```
+
+Esto generará las gráficas de las ocho funciones de activación junto con sus derivadas.
+
+---
+## 🛠️ Entorno Virtual
+Se recomienda crear un entorno virtual para evitar conflictos con dependencias de otros proyectos. Sigue estos pasos:
+
+### 🔹 Creación del entorno virtual
+
+**En Windows (PowerShell):**
+```powershell
+python -m venv nombre_del_entorno
+```
+
+**En Unix (Linux/macOS):**
+```bash
+python3 -m venv nombre_del_entorno
+```
+
+### 🔹 Activación del entorno virtual
+
+**En Windows (PowerShell):**
+```powershell
+.
+ombre_del_entorno\Scripts\Activate
+```
+
+**En Unix (Linux/macOS):**
+```bash
+source nombre_del_entorno/bin/activate
+```
+
+### 🔹 Instalación de dependencias
+Una vez activado el entorno virtual, instala las dependencias con:
+```bash
+pip install -r requirements.txt
+```
+
+### 🔹 Desactivación del entorno virtual
+Para salir del entorno virtual, usa:
+```bash
+deactivate
+```
+
+---
+## 📌 Notas
+- Se recomienda mantener el entorno virtual en la carpeta principal del proyecto para un acceso más fácil.
+- La ejecución de `main.py` generará las gráficas automáticamente sin necesidad de configuración adicional.
+
+---
+## 📢 Contacto
+Si tienes dudas o sugerencias, no dudes en contactarme a través de GitHub.
+
+¡Gracias por visitar este repositorio! 😊
+
