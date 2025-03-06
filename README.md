@@ -91,7 +91,7 @@ Activation_functions_2230002/
 
 ## Uso
 Finalmente, para emplear este repositorio, con sus respectivos requerimientos y entorno virtual cumplidos, se puede proceder a usar el código *main.py* mediante python main.py en PowerShell y python3 main.py en Linux, mediante la ejecución del código principal, se manda a llamar cada uno de los códigos requeridos para la graficación de las 8 funciones de activación mostrando de igual forma sus respectivas derivadas.
----
+
 ## Funciones
 
 En el presente proyecto se grafican las siguientes funciones de activacion:
