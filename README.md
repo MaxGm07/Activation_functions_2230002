@@ -40,7 +40,7 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente en tu sistema:
 
 - [Python 3.8 o superior](https://www.python.org/downloads/) 
 
-Un punto importante es la creación de un entorno virtual para probar el código principal mediante el comando
+Un punto importante es la creación de un entorno virtual para probar el código principal mediante el comando:
 
 **en PowerShell**
     
