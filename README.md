@@ -145,8 +145,7 @@ python3 -m venv nombre_del_entorno
 
 **En Windows (PowerShell):**
 ```powershell
-.
-ombre_del_entorno\Scripts\Activate
+nombre_del_entorno\Scripts\Activate
 ```
 
 **En Unix (Linux/macOS):**
@@ -172,8 +171,3 @@ deactivate
 - La ejecución de `main.py` generará las gráficas automáticamente sin necesidad de configuración adicional.
 
 ---
-## 📢 Contacto
-Si tienes dudas o sugerencias, no dudes en contactarme a través de GitHub.
-
-¡Gracias por visitar este repositorio! 😊
-
