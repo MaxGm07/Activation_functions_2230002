@@ -4,6 +4,10 @@
 
 :octocat:
 
+**Alumno:** Carlos Maximiliano García mediante
+**Matrícula:** 2230002
+**Asignatura:** Visión artificial
+
 Este repositorio contiene la **Tarea 1** del curso de **Visión artificial**. El proyecto está diseñado para graficar las funciones de activación más empleadas dentro del tema de redes neuronales, permitiendo comprender y visualizar en este repositorio las gráficas de dichas funciones con su respectiva derivada.
 
 
