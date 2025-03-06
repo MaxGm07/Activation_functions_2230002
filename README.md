@@ -12,10 +12,11 @@ Este repositorio contiene la **Tarea 1** del curso de **Visión artificial**. El
 1. [Descripción](#descripción)
 2. [¿Qué son las funcones de activacion?](#qué-son-las-funciones-de-activación)
 3. [Requisitos](#requisitos)
-4. [Nota para el entorno virtual](#nota-para-el-entorno-virtual)
-5. [Uso](#uso)
-6. [Funciones](#funciones)
-7. [Instalación](#instalación)
+5. [Nota para el entorno virtual](#nota-para-el-entorno-virtual)
+
+6. [Uso](#uso)
+7. [Funciones](#funciones)
+8. [Instalación](#instalación)
 ---
 
 ## Descripción
@@ -63,11 +64,28 @@ Se recomienda tener el entorno virtual generado en la carpeta principal para un 
 
     source nombre_del_entorno/bin/activate
     deactivate
-    
+---   
+## Estructura del proyecto
+```
+Activation_functions_2230002/
+├── src/
+│   ├── gaussian_function.py
+│   ├── identity_function.py
+│   ├── relu_function.py
+│   ├── sigmoid_function.py
+│   ├── signum_function.py
+│   ├── softplus_function.py
+│   ├── step_function.py
+│   ├── tanh_function.py
+├── .gitignore
+├── README.md
+├── main.py
+└── requirements.txt
+```
 
 ## Uso
 Finalmente, para emplear este repositorio, con sus respectivos requerimientos y entorno virtual cumplidos, se puede proceder a usar el código *main.py* mediante python main.py en PowerShell y python3 main.py en Linux, mediante la ejecución del código principal, se manda a llamar cada uno de los códigos requeridos para la graficación de las 8 funciones de activación mostrando de igual forma sus respectivas derivadas.
-
+---
 ## Funciones
 
 En el presente proyecto se grafican las siguientes funciones de activacion:
