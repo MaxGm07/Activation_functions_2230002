@@ -1,14 +1,14 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Definir la función Signum y su derivada
+# Define the Signum function and its derivative
 def signum(x):
     return np.where(x < 0, -1, np.where(x > 0, 1, 0))
 
 def signum_derivative(x):
-    return np.zeros_like(x)  # Derivada es 0 en todas partes excepto en x=0
+    return np.zeros_like(x)  # Derivative is 0 everywhere except at x=0
 
-# Se grafica la función Signum y su derivada
+# Plot the Signum function and its derivative
 def signum_plot(ax):
     x = np.linspace(-10, 10, 1000)
     y = signum(x)

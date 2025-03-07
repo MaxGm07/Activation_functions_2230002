@@ -1,21 +1,21 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Definir la función ReLU y su derivada
+# Define the ReLU function and its derivative
 def relu(x):
     return np.maximum(0, x)
 
 def relu_derivative(x):
     return np.where(x > 0, 1, 0)
 
-# Crear un rango de valores para x
+# Create a range of values for x
 x = np.linspace(-10, 10, 1000)
 
-# Aplicar la función ReLU y su derivada
+# Apply the ReLU function and its derivative
 y = relu(x)
 y_derivative = relu_derivative(x)
 
-# Se grafica la función ReLU y su derivada
+# Plot the ReLU function and its derivative
 def relu_plot(ax):
     ax.plot(x, y, label="ReLU", color="blue")
     ax.plot(x, y_derivative, label="Derivada de ReLU", color="orange", linestyle="--")

@@ -1,21 +1,21 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Definir la función Sigmoid y su derivada
+# Define the Sigmoid function and its derivative
 def sigmoid(x):
     return 1 / (1 + np.exp(-x))
 
 def sigmoid_derivative(x):
     return sigmoid(x) * (1 - sigmoid(x))
 
-# Crear un rango de valores para x
+# Create a range of values for x
 x = np.linspace(-10, 10, 1000)
 
-# Aplicar la función Sigmoid y su derivada
+# Apply the Sigmoid function and its derivative
 y = sigmoid(x)
 y_derivative = sigmoid_derivative(x)
 
-# Graficar la función sigmoide
+# Plot the Sigmoid function
 def sigmoid_plot(ax):
     ax.plot(x, y, label="Sigmoid", color="red")
     ax.plot(x, y_derivative, label="Derivada de Sigmoid", color="orange", linestyle="--")

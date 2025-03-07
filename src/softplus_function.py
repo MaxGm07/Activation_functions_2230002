@@ -1,14 +1,14 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Definir la función Softplus y su derivada
+# Define the Softplus function and its derivative
 def softplus(x):
-    return np.log1p(np.exp(x))  # log1p es más estable numéricamente para log(1 + x)
+    return np.log1p(np.exp(x))  # log1p is numerically more stable for log(1 + x)
 
 def softplus_derivative(x):
-    return 1 / (1 + np.exp(-x))  # Derivada es la función sigmoid
+    return 1 / (1 + np.exp(-x))  # Derivative is the sigmoid function
 
-# Se grafica la función Softplus y su derivada
+# Plot the Softplus function and its derivative
 def softplus_plot(ax):
     x = np.linspace(-10, 10, 1000)
     y = softplus(x)
