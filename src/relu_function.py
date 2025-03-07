@@ -17,7 +17,7 @@ y_derivative = relu_derivative(x)
 
 # Plot the ReLU function and its derivative
 def relu_plot(ax):
-    ax.plot(x, y, label="ReLU", color="blue")
+    ax.plot(x, y, label="ReLU", color="red")
     ax.plot(x, y_derivative, label="Derivada de ReLU", color="orange", linestyle="--")
     ax.set_title("Función de Activación ReLU")
     ax.set_xlabel("x")

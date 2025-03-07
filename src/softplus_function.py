@@ -13,7 +13,7 @@ def softplus_plot(ax):
     x = np.linspace(-10, 10, 1000)
     y = softplus(x)
     y_derivative = softplus_derivative(x)
-    ax.plot(x, y, label="Softplus", color="magenta")
+    ax.plot(x, y, label="Softplus", color="olive")
     ax.plot(x, y_derivative, label="Derivada de Softplus", color="orange", linestyle="--")
     ax.set_title("Función Softplus")
     ax.set_xlabel("x")

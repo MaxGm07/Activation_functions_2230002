@@ -17,7 +17,7 @@ y_derivative = tanh_derivative(x)
 
 # Plot the Hyperbolic Tangent function and its derivative
 def tanh_plot(ax):
-    ax.plot(x, y, label="Tangente Hiperbólica", color="purple")
+    ax.plot(x, y, label="Tangente Hiperbólica", color="salmon")
     ax.plot(x, y_derivative, label="Derivada de Tangente Hiperbólica", color="orange", linestyle="--")
     ax.set_title("Función Tangente Hiperbólica")
     ax.set_xlabel("x")

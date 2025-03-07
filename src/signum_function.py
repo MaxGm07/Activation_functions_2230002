@@ -13,7 +13,7 @@ def signum_plot(ax):
     x = np.linspace(-10, 10, 1000)
     y = signum(x)
     y_derivative = signum_derivative(x)
-    ax.plot(x, y, label="Signum", color="k")
+    ax.plot(x, y, label="Signum", color="purple")
     ax.plot(x, y_derivative, label="Derivada de Signum", color="orange", linestyle="--")
     ax.set_title("Función Signum")
     ax.set_xlabel("x")

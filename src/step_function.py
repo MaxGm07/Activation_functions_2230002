@@ -17,7 +17,7 @@ y_derivative = step_derivative(x)
 
 # Plot the Step function and its derivative
 def step_plot(ax):
-    ax.plot(x, y, label="Escalón", color="purple")
+    ax.plot(x, y, label="Escalón", color="magenta")
     ax.plot(x, y_derivative, label="Derivada de escalón", color="orange", linestyle="--")
     ax.set_title("Función de Activación Escalón")
     ax.set_xlabel("x")

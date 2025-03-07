@@ -17,7 +17,7 @@ y_derivative = sigmoid_derivative(x)
 
 # Plot the Sigmoid function
 def sigmoid_plot(ax):
-    ax.plot(x, y, label="Sigmoid", color="red")
+    ax.plot(x, y, label="Sigmoid", color="gray")
     ax.plot(x, y_derivative, label="Derivada de Sigmoid", color="orange", linestyle="--")
     ax.set_title("Función de Activación Sigmoid")
     ax.set_xlabel("x")
